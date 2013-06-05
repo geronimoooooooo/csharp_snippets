@@ -14,7 +14,7 @@ namespace WindowsFormsApplication1
         List<Person> liste = null;
         public Form1()
         {
-            liste = new List<Person> { new Person() { name = "simo", name2 = "simo2" }, new Person() { name = "snez", name2 = "snez2" } };
+            liste = new List<Person> { new Person() { name = "o", name2 = "o2" }, new Person() { name = "z", name2 = "d2" } };
 
            
 
