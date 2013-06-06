@@ -1,5 +1,7 @@
  
  http://stackoverflow.com/questions/114983/in-c-given-a-datetime-object-how-do-i-get-a-iso-8601-date-in-string-format
+ Z... für UtcNow
+ zzz. für Now
             System.Diagnostics.Debug.WriteLine(DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fZ"));
             2013-06-03T17:26:52.7Z
             
