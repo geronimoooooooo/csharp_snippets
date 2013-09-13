@@ -22,3 +22,22 @@
             
             System.Diagnostics.Debug.WriteLine(DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"));
             2013-06-03T17:11:51Z
+            
+http://stackoverflow.com/questions/18790875/how-to-parse-a-datetime-string-to-date-object
+datetime = DateTime.Parse("2013-02-01T12:30:00.001+01:00");
+   //datetime object shows 2013-02-01 12:30:00 but the ms are still stored. 
+   //just use "o"
+
+   WriteLine(datetime.ToString());
+   //2013-02-01 12:30:00
+
+   WriteLine(datetime.ToString("o"));
+   //2013-02-01T12:30:00.0010000+01:00
+
+   WriteLine(datetime.ToString("yyyy-MM-ddTHH:mm:ss.fffzzz"));
+   //2013-02-01T12:30:00.001+01:00
+
+
+   String str = datetime.ToString("o");
+   WriteLine("my: "+str);
+   //my: 2013-02-01T12:30:00.0010000+01:00
