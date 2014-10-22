@@ -5,3 +5,8 @@ Using LINQ to XML to Process XML in Multiple Namespaces: http://stackoverflow.co
 http://stackoverflow.com/questions/2340411/use-linq-to-xml-with-xml-namespaces
 
 Parse XML File: http://stackoverflow.com/questions/14226473/c-sharp-parsing-xml-file
+
+http://blogs.msdn.com/b/wriju/archive/2011/05/04/linq-to-xml-handling-blank-or-no-element-and-attribute.aspx
+http://stackoverflow.com/questions/7276215/unable-to-select-in-linq-to-xml-error-object-reference-not-set-to-an-instance
+http://stackoverflow.com/questions/14247606/linq-to-xml-query-object-reference-not-set-error-while-trying-to-retrieve-child
+Xelement extension methods: https://github.com/sankalpsaxena81/SequenceDiagramGeneratorForTeamCityProjects/blob/master/SequenceDiagramGenerator/DependencyGraphGenerator/XElementExtensions.cs
