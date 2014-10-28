@@ -1,0 +1,17 @@
+C#
+Custom Date and Time Format Strings: http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx
+DateTime.ParseExact Method http://msdn.microsoft.com/en-us/library/w2sa9yss(v=vs.110).aspx
+String Format for DateTime [C#] http://www.csharp-examples.net/string-format-datetime/
+http://www.dotnetperls.com/datetime-format
+
+   2014-10-07T08:20:00.000   yyyy-MM-dd'T'HH:mm:ss.fff 
+   Oct 07, 2014 - 02:30 PM EDT DateTime.Now.ToString("MMM dd, yyyy - hh:mm tt \"EDT\"",new CultureInfo("en-Us"))     
+   Oct 07, 2014 - 08:20 AM EDT = time    DateTime.ParseExact(time, "MMM dd, yyyy - hh:mm tt EDT", new CultureInfo("en-US"))   
+   2014.30.07 1430 UTC    yyyy.mm.dd HHmm UTC     
+   2012-06-24 02:40:23 AM   DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss tt"); // output : 
+
+   String format ="yyyy-MM-dd'T'HH:mm:ss.SSSZ";
+   SimpleDateFormat sdf = new SimpleDateFormat(format);
+   	
+   TextView tv = (TextView)findViewById(R.id.textView_serverResponse);
+   tv.setText(caller + ": "+sdf.format(new Date()));
