@@ -1,0 +1,5 @@
+Ein kleines tutorial mit code examples, wie man simple C# Klassen in XML serialisieren kann.
+http://geekswithblogs.net/playwithdotnet/archive/2014/04/27/xml-serialization--in-c.aspx
+
+Deserialisierung mit code examples
+http://geekswithblogs.net/playwithdotnet/archive/2014/04/27/de-serialization-in-c.aspx
