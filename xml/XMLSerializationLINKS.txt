@@ -3,3 +3,6 @@ http://geekswithblogs.net/playwithdotnet/archive/2014/04/27/xml-serialization--i
 
 Deserialisierung mit code examples
 http://geekswithblogs.net/playwithdotnet/archive/2014/04/27/de-serialization-in-c.aspx
+
+Auch ein kleines tutorial mit examples
+http://seesharpconcepts.blogspot.co.at/2013/11/c-xmlserialization-generating-xsd-from.html
