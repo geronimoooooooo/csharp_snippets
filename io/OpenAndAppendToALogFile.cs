@@ -1,4 +1,4 @@
-//
+//http://msdn.microsoft.com/en-us/library/3zc0w663(v=vs.110).aspx
 
 
 using System;
