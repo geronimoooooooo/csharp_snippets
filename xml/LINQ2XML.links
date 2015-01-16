@@ -1,7 +1,8 @@
 http://stackoverflow.com/questions/2340411/use-linq-to-xml-with-xml-namespaces
 simple tutorial/example for beginner: http://codesamplez.com/programming/linq-to-xml-tutorial
 
-Using LINQ to XML to Process XML in Multiple Namespaces: http://stackoverflow.com/questions/1224896/using-linq-to-xml-to-process-xml-in-multiple-namespaces
+Using LINQ to XML to Process XML in Multiple Namespaces: 
+http://stackoverflow.com/questions/1224896/using-linq-to-xml-to-process-xml-in-multiple-namespaces
 http://stackoverflow.com/questions/2340411/use-linq-to-xml-with-xml-namespaces
 
 Parse XML File: http://stackoverflow.com/questions/14226473/c-sharp-parsing-xml-file
@@ -9,4 +10,7 @@ Parse XML File: http://stackoverflow.com/questions/14226473/c-sharp-parsing-xml-
 http://blogs.msdn.com/b/wriju/archive/2011/05/04/linq-to-xml-handling-blank-or-no-element-and-attribute.aspx
 http://stackoverflow.com/questions/7276215/unable-to-select-in-linq-to-xml-error-object-reference-not-set-to-an-instance
 http://stackoverflow.com/questions/14247606/linq-to-xml-query-object-reference-not-set-error-while-trying-to-retrieve-child
-Xelement extension methods: https://github.com/sankalpsaxena81/SequenceDiagramGeneratorForTeamCityProjects/blob/master/SequenceDiagramGenerator/DependencyGraphGenerator/XElementExtensions.cs
+
+Xelement extension methods: 
+https://github.com/sankalpsaxena81/SequenceDiagramGeneratorForTeamCityProjects/
+blob/master/SequenceDiagramGenerator/DependencyGraphGenerator/XElementExtensions.cs
