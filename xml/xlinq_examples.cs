@@ -40,4 +40,20 @@ from person in people
                  where int.Parse(person.Element("Age").Value) < 60
                  select person.Element("Name").Value).ToList();
 ----
+//Adding a new Element to a .xml document
+//adding an element
+
+            //load document
+            XDocument document = Xdocument.Load("People.xml");
+
+            document.Element("People").Add(
+
+                 new XElement("Person", new XAttribute("id", 5),
+                        new XElement("Name", "Carl"),
+                        new XElement("Age", 24),
+                        new XElement("Job", "Banker")
+                        )
+
+                 );
+----
 
