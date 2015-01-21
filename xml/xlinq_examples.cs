@@ -24,3 +24,12 @@ public User GetUser(string userName)
 }
 
 XElement cStudent = testXML.Descendants("Student").Where(c => c.Attribute("ID").Value.Equals(id.ToString())).FirstOrDefault();
+----
+Person[] people = new Person[]();
+//create xml document from already constructed Person objects
+from person in people
+                  select new XElement("Person", new XAttribute("ID", person.ID), 
+                         new XElement("Name", person.Name), 
+                         new XElement("Age", person.Age), 
+                         new XElement("Job", person.Job))
+              )
