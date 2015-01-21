@@ -59,5 +59,15 @@ from person in people
 //removing an element
 XDocument document = Xdocument.Load("People.xml");
 document.Root.Elements().Where(e => e.Attribute("id").Value.Equals("5")).Select(e => e).Single().Remove();
+
+We get a collection of all the immediate child elements of the Person elements by calling the Elements() 
+method on the root element on the ‘document’ variable. That’s the difference between Descendants() and Elements(). 
+Descendants() recursively finds all children; Elements() returns only immediate children. Click here for more details
+
+The root element in this document is ‘People’. 
+
+We then select the element where the value of the current Person element’s id is 5. We then call Single() 
+on the resulting collection to get the single XElement object back. We then call Remove() 
+on that element, and save the changes. 
 ----
 
