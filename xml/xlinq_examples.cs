@@ -56,4 +56,8 @@ from person in people
 
                  );
 ----
+//removing an element
+XDocument document = Xdocument.Load("People.xml");
+document.Root.Elements().Where(e => e.Attribute("id").Value.Equals("5")).Select(e => e).Single().Remove();
+----
 
