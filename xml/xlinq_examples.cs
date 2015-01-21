@@ -75,3 +75,6 @@ on that element, and save the changes.
    root.Elements("Person").Where(e => e.Element("Name").Value.Equals("Lisa")).
    Select(e => e.Element("Job")).Single().SetValue("Florist");
 ----
+var fourOrMoreCharacters = listOne.Count(item => item.Length > 3);
+Console.WriteLine("{0}\n{1}", result,fourOrMoreCharacters);
+----
