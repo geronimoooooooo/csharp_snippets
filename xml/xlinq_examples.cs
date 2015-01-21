@@ -33,3 +33,11 @@ from person in people
                          new XElement("Age", person.Age), 
                          new XElement("Job", person.Job))
               )
+----
+//list of names of the people below 60 years of age
+
+     var names = (from person in Xdocument.Load("People.xml").Descendants("Person")
+                 where int.Parse(person.Element("Age").Value) < 60
+                 select person.Element("Name").Value).ToList();
+----
+
