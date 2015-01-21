@@ -70,4 +70,8 @@ We then select the element where the value of the current Person element’s id 
 on the resulting collection to get the single XElement object back. We then call Remove() 
 on that element, and save the changes. 
 ----
-
+//updating an xml document
+   // Update Lisa's job to florist
+   root.Elements("Person").Where(e => e.Element("Name").Value.Equals("Lisa")).
+   Select(e => e.Element("Job")).Single().SetValue("Florist");
+----
