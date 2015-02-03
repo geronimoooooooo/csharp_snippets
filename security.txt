@@ -1,0 +1,6 @@
+Certificate:
+http://stackoverflow.com/questions/2675133/c-sharp-ignore-certificate-errors
+http://stackoverflow.com/questions/1301127/how-to-ignore-a-certificate-error-with-c-sharp-2-0-webclient-without-the-certi
+http://stackoverflow.com/questions/12506575/how-to-ignore-the-certificate-check-when-ssl
+https://u-labs.de/net-94/probleme-mit-webrequests-und-ssl-28545/
+http://msdn.microsoft.com/en-us/library/system.net.servicepointmanager.servercertificatevalidationcallback.aspx
