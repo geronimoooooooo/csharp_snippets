@@ -1,0 +1,1 @@
+Alle möglichen Lambda Expressions: http://www.codeproject.com/Articles/383749/How-does-it-work-in-Csharp-Part-3-Csharp-Linq-in-d
