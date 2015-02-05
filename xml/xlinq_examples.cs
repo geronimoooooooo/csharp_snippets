@@ -1,3 +1,9 @@
+var FieldsInDataRecord = mem.List_ofReturnedFields.Element(ns + "field");
+or
+var FieldsInDataRecord = from fields in mem.List_ofReturnedFields.Elements(ns + "field")
+                         select fields;
+
+----------------------------------
 XElement cStudent = testXML.Descendants("Student").
 Where(c => c.Attribute("ID").Value.Equals(id.ToString())).FirstOrDefault();
 
