@@ -1,0 +1,3 @@
+https://msdn.microsoft.com/en-us/library/system.globalization.numberformatinfo.numberdecimalseparator(v=vs.110).aspx
+http://stackoverflow.com/questions/14513468/detect-decimal-separator
+http://stackoverflow.com/questions/3135569/how-to-change-symbol-for-decimal-point-in-double-tostring
