@@ -1,3 +1,25 @@
+---------------------------------------
+XElement books = XElement.Parse(
+ @"<books>
+ <book>
+ <title>Pro LINQ: Language Integrated Query in C# 2008</title>
+ <author>Joe Rattz</author>
+ </book>
+ <book>
+ <title>Pro WF: Windows Workflow in .NET 3.0</title>
+ <author>Bruce Bukovics</author>
+ </book>
+ <book>
+ <title>Pro C# 2005 and the .NET 2.0 Platform, Third Edition</title>
+ <author>Andrew Troelsen</author>
+ </book>
+ </books>");
+ 
+var titles =
+ from book in books.Elements("book")
+ where (string) book.Element("author") == "Joe Rattz"
+ select book.Element("title");
+---------------------------------------
 var FieldsInDataRecord = mem.List_ofReturnedFields.Element(ns + "field");
 or
 var FieldsInDataRecord = from fields in mem.List_ofReturnedFields.Elements(ns + "field")
